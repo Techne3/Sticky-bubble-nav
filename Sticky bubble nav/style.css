@@ -1,0 +1,37 @@
+body,
+html {
+    align-items: center;
+    background-color: #182e40;
+    display: flex;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    height: 100%;
+    justify-content: center;
+    letter-spacing: 0.009em;
+    width: 100%;
+}
+
+ul {
+    border-radius: 1rem;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    border-radius: 1rem;
+    color: #869383;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: all 200ms ease;
+}
+
+.bubble {
+    border-radius: 16px;
+    border: solid 2px #faff94;
+    box-sizing: border-box;
+    height: 34px;
+    position: absolute;
+    transition: width 200ms ease, left 200ms ease;
+    width: 10px;
+}
